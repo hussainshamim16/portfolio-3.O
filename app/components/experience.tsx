@@ -6,8 +6,8 @@ import { useSectionInView, useWindowSizeHook } from '../lib/hooks'
 
 export default function Experience() {
   const width = useWindowSizeHook()
-
   const { ref } = useSectionInView('Experience', width > 700 ? 0.5 : 0.3)
+
   return (
     <section
       ref={ref}
@@ -15,7 +15,10 @@ export default function Experience() {
       className="scroll-mt-24"
     >
       <Header>Experience</Header>
-      <Timeline data={experiences} />
+      <Timeline data={experiences.map(exp => ({
+        ...exp,
+        gpa: exp.gpa !== null ? exp.gpa : undefined 
+      }))} />
     </section>
   )
 }
