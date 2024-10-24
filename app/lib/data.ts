@@ -315,7 +315,7 @@ export const experiences = [
     title: 'Full Stack Developer',
     subtitle: 'Saylani Mass It Training',
     image: saylani,
-    dates: 'Feb. 2025 (in progress)',
+    dates: 'Dec. 2023 (in progress)',
     description:
       'Full Stack Development at (SMIT), enhancing my backend knowledge while building a robust foundation for complete web solutions.',
     gpa: null,
@@ -325,9 +325,9 @@ export const experiences = [
     title: 'React.Js Developer',
     subtitle: 'Bakhshish Associates',
     image: bakhshish,
-    dates: 'Jul. 2024 - present',
+    dates: 'Dec. 2024 - present',
     description:
-      'Developed and implemented basketball curriculum for children ages 5-14. Instructed and coached children in basketball fundamentals and team play.',
+      'I have hands-on experience in creating reusable components, managing state with tools like Redux and Context API, and integrating APIs for seamless data flow.',
   },
 ]
 

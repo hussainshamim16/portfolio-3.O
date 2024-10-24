@@ -64,7 +64,7 @@ export default function Intro() {
         viewport={{ once: true }}
       >
         <Button
-          href="/hussain.pdf"
+          href="/my.pdf"
           className="md:text-lg group"
         >
           Resume
