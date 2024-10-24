@@ -64,6 +64,8 @@ import urban from '@/public/urban 3.png'
 import greeni from '@/public/green Portfolio.png'
 import quiz from '@/public/quiz app.png'
 import angler from '@/public/angloer.png'
+import saylani from '@/public/smit.png'
+import bakhshish from '@/public/bakhshish.png'
 
 export const links = [
   {
@@ -172,7 +174,7 @@ export const skills = [
     image: next,
   },
   {
-    name: 'material Ui',
+    name: 'Material',
     image: materialUI,
   },
  
@@ -294,35 +296,35 @@ export const projects = [
 export const experiences = [
   {
     title: 'Wordpress Developer',
-    subtitle: 'AMC Theatres',
+    subtitle: 'Solutions Garme',
     image: amc,
-    dates: 'Mar. 2022 - Aug. 2022',
+    dates: 'Oct. 2023 - Jan. 2024',
     description:
-      'Managed theatre operations including recruiting and hiring, team scheduling, training, inventory, and team developement.',
+      'My responsibilities included designing and customizing WordPress themes, configuring plugins, and optimizing websites for performance and SEO.',
   },
   {
-    title: 'Front End Developer',
-    subtitle: 'Cinefind',
+    title: 'Junior Front-End Developer',
+    subtitle: 'Cinefind Solutions',
     image: cinefindLogo,
-    dates: 'Jun. 2023 - Aug. 2024',
+    dates: 'Feb. 2024 - Apr. 2024',
     description:
-      'Led development overhaul on the company website with Next.js for optimized performance and SEO. In addition, I managed backend database communication with MongoDB and Prisma and implemented user authentication.',
+      'I collaborate with design and development teams to implement dynamic user interfaces and ensure cross-browser compatibility.',
   },
  
   {
     title: 'Full Stack Developer',
     subtitle: 'Saylani Mass It Training',
-    image: sjsu,
+    image: saylani,
     dates: 'Feb. 2025 (in progress)',
     description:
-      'Gained significant experience leading teams on a diverse range of software development projects using SDLC methodologies.',
-    gpa: 3.8,
+      'Full Stack Development at (SMIT), enhancing my backend knowledge while building a robust foundation for complete web solutions.',
+    gpa: null,
   },
 
   {
-    title: 'Basketball Instructor',
-    subtitle: 'Lifetime Activities',
-    image: lifetime,
+    title: 'React.Js Developer',
+    subtitle: 'Bakhshish Associates',
+    image: bakhshish,
     dates: 'Jul. 2024 - present',
     description:
       'Developed and implemented basketball curriculum for children ages 5-14. Instructed and coached children in basketball fundamentals and team play.',
