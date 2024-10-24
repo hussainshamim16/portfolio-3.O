@@ -39,7 +39,7 @@ export default function About() {
           viewport={{ once: true }}
           className="text-gray-400 text-lg"
         >
-         Hello! I'm Muhammad Hussain Shamim, a passionate and skilled Front-end Developer with over 2 years of experience specializing in React.js and Next.js. I’ve built multiple responsive and user-friendly websites using the latest web technologies.{' '}
+          Hello! I&apos;m Muhammad Hussain Shamim, a passionate and skilled Front-end Developer with over 2 years of experience specializing in React.js and Next.js. I’ve built multiple responsive and user-friendly websites using the latest web technologies.{' '}
           <Link
             href="/#projects"
             className="hover:text-sjsu-gold transition-colors font-semibold"
