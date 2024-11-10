@@ -177,7 +177,7 @@ export const skills = [
     name: 'Material',
     image: materialUI,
   },
- 
+
   {
     name: 'Tailwind',
     image: tailwind,
@@ -273,7 +273,7 @@ export const projects = [
     description:
       'This Advanced Portfolio is a modern web development project built entirely using HTML, CSS, and JavaScript.',
     tech: [
-     
+
       {
         src: html,
         alt: 'html',
@@ -286,7 +286,7 @@ export const projects = [
         src: javascript,
         alt: 'js',
       }
-      
+
     ],
     link: "https://hussainshamim16.github.io/new-portfolio/",
     code: 'https://github.com/hussainshamim16/new-portfolio',
@@ -294,23 +294,6 @@ export const projects = [
 ]
 
 export const experiences = [
-  {
-    title: 'Frontend Web Developer',
-    subtitle: 'Solutions Gram ',
-    image: amc,
-    dates: 'Oct. 2024 - present',
-    description:
-      'I collaborate with design and development teams to implement dynamic user interfaces and ensure cross-browser compatibility.',
-  },
-  {
-    title: 'Wordpress Developer',
-    subtitle: 'Cinefind Solutions',
-    image: cinefindLogo,
-    dates: 'Feb. 2024 - Apr. 2024',
-    description:
-    'My responsibilities included designing and customizing WordPress themes, configuring plugins, and optimizing websites for performance and SEO.',
-  },
- 
   {
     title: 'Full Stack Developer',
     subtitle: 'Saylani Mass It Training',
@@ -320,15 +303,34 @@ export const experiences = [
       'Full Stack Development at (SMIT), enhancing my backend knowledge while building a robust foundation for complete web solutions.',
     gpa: null,
   },
+  {
+    title: 'Wordpress Developer',
+    subtitle: 'Cinefind Solutions',
+    image: cinefindLogo,
+    dates: 'Feb. 2024 - Apr. 2024',
+    description:
+      'My responsibilities included designing and customizing WordPress themes, configuring plugins, and optimizing websites for performance and SEO.',
+  },
 
   {
     title: 'React.Js Developer',
     subtitle: 'Bakhshish Associates',
     image: bakhshish,
-    dates: 'Dec. 2024 - present',
+    dates: 'May. 2024 - Jul. 2024',
     description:
       'I have hands-on experience in creating reusable components, managing state with tools like Redux and Context API, and integrating APIs for seamless data flow.',
   },
+
+  {
+    title: 'Frontend Web Developer',
+    subtitle: 'Solutions Gram ',
+    image: amc,
+    dates: 'Oct. 2024 - present',
+    description:
+      'I collaborate with design and development teams to implement dynamic user interfaces and ensure cross-browser compatibility.',
+  },
+
+
 ]
 
 export const footerLinks = [
