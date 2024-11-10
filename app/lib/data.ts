@@ -50,7 +50,7 @@ import materialUI from '@/public/material.png'
 import vinylBot from '@/public/vinyl-bot.png'
 import temp from '@/public/temp.png'
 import giants from '@/public/giants.png'
-import amc from '@/public/amc.png'
+import amc from '@/public/solutionsgram_logo.jpeg'
 import lifetime from '@/public/lifetime.png'
 import sjsu from '@/public/sjsu.png'
 import cinefindLogo from '@/public/cinefind-logo.png'
@@ -295,20 +295,20 @@ export const projects = [
 
 export const experiences = [
   {
-    title: 'Wordpress Developer',
-    subtitle: 'Solutions Garme',
+    title: 'Frontend Web Developer',
+    subtitle: 'Solutions Gram ',
     image: amc,
-    dates: 'Oct. 2023 - Jan. 2024',
+    dates: 'Oct. 2024 - present',
     description:
-      'My responsibilities included designing and customizing WordPress themes, configuring plugins, and optimizing websites for performance and SEO.',
+      'I collaborate with design and development teams to implement dynamic user interfaces and ensure cross-browser compatibility.',
   },
   {
-    title: 'Junior Front-End Developer',
+    title: 'Wordpress Developer',
     subtitle: 'Cinefind Solutions',
     image: cinefindLogo,
     dates: 'Feb. 2024 - Apr. 2024',
     description:
-      'I collaborate with design and development teams to implement dynamic user interfaces and ensure cross-browser compatibility.',
+    'My responsibilities included designing and customizing WordPress themes, configuring plugins, and optimizing websites for performance and SEO.',
   },
  
   {

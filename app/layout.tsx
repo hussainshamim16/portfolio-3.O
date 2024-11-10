@@ -30,7 +30,7 @@ export default function RootLayout({
 
     >
       <head>
-        <link rel="icon" href="/favicon-32x32.png" /> 
+        <link rel="icon" href="/favicon-32x32.png" />
         <title>Muhammad Hussain Shamim</title>
       </head>
       <body
@@ -44,6 +44,8 @@ export default function RootLayout({
           </main>
           <Footer />
         </ActiveSectionContextProvider>
+        <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore-compat.js"></script>
       </body>
     </html>
   )
