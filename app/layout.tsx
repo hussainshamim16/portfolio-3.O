@@ -5,6 +5,7 @@ import Navbar from './components/navbar'
 import Footer from './components/footer'
 import ToastContext from './context/toast-context'
 import ActiveSectionContextProvider from './context/section-context'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -45,10 +46,17 @@ export default function RootLayout({
           </main>
           <Footer />
         </ActiveSectionContextProvider>
-        <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore-compat.js"></script>
+
+
+        <>
+          <Script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js" strategy="lazyOnload" />
+          <Script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore-compat.js" strategy="lazyOnload" />
+        </>
+
+        {/* <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js" async></script> */}
+        {/* <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore-compat.js" async></script> */}
       </body>
-      
+
     </html>
   )
 }
