@@ -32,6 +32,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon-32x32.png" />
         <title>Muhammad Hussain Shamim</title>
+        <meta name="google-site-verification" content="qmW8fuOLvfddW85IRrBamnAZ7TK_3Hmmfz4U_0oP4-0" />
       </head>
       <body
         className={`${outfit.className} min-h-screen text-gray-50 flex flex-col items-center justify-center w-full`}
@@ -47,6 +48,7 @@ export default function RootLayout({
         <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js"></script>
         <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-firestore-compat.js"></script>
       </body>
+      
     </html>
   )
 }
