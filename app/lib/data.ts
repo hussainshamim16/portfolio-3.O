@@ -111,17 +111,7 @@ export const socials = [
     name: 'Email',
     icon: FaEnvelope,
     href: 'mailto:hussainshamimdev@gmail.com',
-  },
-  // {
-  //   name: 'GitHub',
-  //   icon: FaGithub,
-  //   href: 'https://github.com/hussainshamim16',
-  // },
-  // {
-  //   name: 'Instagram',
-  //   icon: FaInstagram,
-  //   href: 'https://www.instagram.com/muhammadhussainshamim/',
-  // },
+  }
 ] as const
 
 export const interests = [
