@@ -54,10 +54,6 @@ export default function RootLayout({
         </>
 
 
-    <a href="https://www.facebook.com/yourpage" target="_blank">Facebook</a>
-    <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-    <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
-
 
 
         {/* <script src="https://www.gstatic.com/firebasejs/11.0.1/firebase-app-compat.js" async></script> */}
