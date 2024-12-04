@@ -5,6 +5,8 @@ import {
   FaPlaneDeparture,
   FaEnvelope,
   FaBookOpen,
+  FaFacebook,
+  FaInstagram,
 } from 'react-icons/fa6'
 import { PiTennisBallFill } from 'react-icons/pi'
 import html from '@/public/html.png'
@@ -96,20 +98,30 @@ export const links = [
 
 export const socials = [
   {
+    name: 'Facebook',
+    icon: FaFacebook,
+    href: 'https://www.facebook.com/muhammadhussainshamim',
+  },
+  {
     name: 'LinkedIn',
     icon: FaLinkedin,
     href: 'https://www.linkedin.com/in/hussainshamim16/',
-  },
-  {
-    name: 'GitHub',
-    icon: FaGithub,
-    href: 'https://github.com/hussainshamim16',
   },
   {
     name: 'Email',
     icon: FaEnvelope,
     href: 'mailto:hussainshamimdev@gmail.com',
   },
+  // {
+  //   name: 'GitHub',
+  //   icon: FaGithub,
+  //   href: 'https://github.com/hussainshamim16',
+  // },
+  // {
+  //   name: 'Instagram',
+  //   icon: FaInstagram,
+  //   href: 'https://www.instagram.com/muhammadhussainshamim/',
+  // },
 ] as const
 
 export const interests = [
@@ -335,6 +347,11 @@ export const experiences = [
 
 export const footerLinks = [
   {
+    name: 'Facebook',
+    icon: FaFacebook,
+    href: 'https://www.facebook.com/muhammadhussainshamim',
+  },
+  {
     name: 'LinkedIn',
     icon: FaLinkedin,
     href: 'https://www.linkedin.com/in/hussainshamim16/',
@@ -343,6 +360,11 @@ export const footerLinks = [
     name: 'GitHub',
     icon: FaGithub,
     href: 'https://github.com/hussainshamim16',
+  },
+  {
+    name: 'Instagram',
+    icon: FaInstagram,
+    href: 'https://www.instagram.com/muhammadhussainshamim/',
   },
   {
     name: 'Email',
