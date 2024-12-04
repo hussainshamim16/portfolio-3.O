@@ -354,7 +354,7 @@ export const footerLinks = [
   {
     name: 'LinkedIn',
     icon: FaLinkedin,
-    href: 'https://www.linkedin.com/in/hussainshamim16/',
+    href: 'https://www.linkedin.com/in/muhammadhussainshamim/',
   },
   {
     name: 'GitHub',
