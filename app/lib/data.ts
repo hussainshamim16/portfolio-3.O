@@ -63,7 +63,7 @@ import naat from '@/public/quran.png'
 import CRICKET from '@/public/cricket.png'
 import cycling from '@/public/cycling.png'
 import urban from '@/public/urban 3.png'
-import greeni from '@/public/green Portfolio.png'
+import greeni from '@/public/bakhshishassociate.png'
 import quiz from '@/public/quiz app.png'
 import angler from '@/public/angloer.png'
 import saylani from '@/public/smit.png'
@@ -156,7 +156,7 @@ export const interests = [
 
 export const skills = [
   {
-    name: 'HTML',
+    name: 'Html',
     image: html,
   },
   {
@@ -172,8 +172,8 @@ export const skills = [
     image: react,
   },
   {
-    name: 'Next.js',
-    image: next,
+    name: 'Express Js',
+    image: express,
   },
   {
     name: 'Material',
@@ -200,6 +200,52 @@ export const skills = [
 
 export const projects = [
   {
+    name: 'Property & Real Estate',
+    image: greeni,
+    description:
+      'Discover premium real estate solutions with Bakhshish Associates. Whether buying, selling, or investing, we connect you to the best opportunities seamlessly.',
+    tech: [
+
+      {
+        src: html,
+        alt: 'html',
+      },
+      {
+        src: css,
+        alt: 'css',
+      },
+      {
+        src: javascript,
+        alt: 'js',
+      }
+
+    ],
+    link: "https://www.bakhshishassociates.com/",
+    code: 'https://github.com/hussainshamim16/bakhshishAssociates',
+  },
+  {
+    name: '(TAC) Education Website',
+    image: angler,
+    description:
+      'This Educational Website serves as a comprehensive solution for students looking to further their education. ',
+    tech: [
+      {
+        src: javascript,
+        alt: 'javascript',
+      },
+      {
+        src: firebase,
+        alt: 'firebase',
+      },
+      {
+        src: Bootstrap,
+        alt: 'Bootstrap',
+      },
+    ],
+    link: "https://theanglophilecenter.netlify.app/",
+    code: 'https://github.com/hussainshamim16/tester.com',
+  },
+  {
     name: 'Urban Bazaar',
     image: urban,
     description:
@@ -220,28 +266,6 @@ export const projects = [
     ],
     link: 'https://ubazaar.netlify.app/',
     code: 'https://github.com/hussainshamim16/urbanBazar',
-  },
-  {
-    name: 'Vinyl Bot',
-    image: angler,
-    description:
-      'This Educational Website serves as a comprehensive solution for students looking to further their education. ',
-    tech: [
-      {
-        src: javascript,
-        alt: 'javascript',
-      },
-      {
-        src: firebase,
-        alt: 'firebase',
-      },
-      {
-        src: Bootstrap,
-        alt: 'Bootstrap',
-      },
-    ],
-    link: "https://theanglophilecenter.netlify.app/",
-    code: 'https://github.com/hussainshamim16/tester.com',
   },
   {
     name: 'Js Quiz App',
@@ -268,31 +292,7 @@ export const projects = [
     ],
     link: 'https://quizliy.netlify.app/',
     code: 'https://github.com/hussainshamim16/quizliy',
-  },
-  {
-    name: 'Greeni Portfolio',
-    image: greeni,
-    description:
-      'This Advanced Portfolio is a modern web development project built entirely using HTML, CSS, and JavaScript.',
-    tech: [
-
-      {
-        src: html,
-        alt: 'html',
-      },
-      {
-        src: css,
-        alt: 'css',
-      },
-      {
-        src: javascript,
-        alt: 'js',
-      }
-
-    ],
-    link: "https://hussainshamim16.github.io/new-portfolio/",
-    code: 'https://github.com/hussainshamim16/new-portfolio',
-  },
+  }
 ]
 
 export const experiences = [

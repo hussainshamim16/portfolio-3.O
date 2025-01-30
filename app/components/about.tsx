@@ -1,5 +1,5 @@
 import Header from './ui/header'
-import profilePic from '@/public/profile-pic.jpeg'
+import profilePic from '@/public/profile-pic.jpg'
 import { interests } from '../lib/data'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -69,11 +69,11 @@ export default function About() {
           viewport={{ once: true }}
           className="justify-center items-center p-4 lg:flex hidden"
         >
-          {/* <Image
+          <Image
             src={profilePic}
-            alt="Alex Ross"
+            alt="muhammad hussain shamim"
             className="rounded-xl shadow-xl shadow-slate-900 lg:h-72 h-56 w-auto brightness-90"
-          /> */}
+          />
         </motion.div>
       </div>
       <motion.h2
