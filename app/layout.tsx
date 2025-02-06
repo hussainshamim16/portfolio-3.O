@@ -15,9 +15,12 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  title: 'Muahmmad Hussain Shamim',
+  title: 'Muhammad Hussain Shamim',
   description: 'Hello! I m Muhammad Hussain Shamim, A Professional React.js & Next.js Developer with expertise in HTML, CSS, JavaScript, Tailwind, and Firebase. View my projects and contact for modern web solutions.',
-}
+  verification: {
+    google: 'k1Ep2WVHjKTH6vZjxFYqB02RzPoKmsIcsAjj69NvBl0',
+  },
+};
 
 export default function RootLayout({
   children,
